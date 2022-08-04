@@ -1,0 +1,33 @@
+.blog {
+  padding: 50px 15px;
+
+  .filter {
+    p {
+      text-align: center;
+    }
+
+    .filterButtons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      button {
+        margin: 2px;
+      }
+    }
+  }
+
+  .galleryWrap {
+    margin-top: 50px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    padding: 150px 25px;
+    min-height: 100vh;
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 25px;
+    }
+  }
+}
