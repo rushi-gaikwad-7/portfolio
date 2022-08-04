@@ -14,7 +14,7 @@ const FeaturedPosts = (props) => {
   }, []);
 
   return (
-    <section className={`${classes.blog} mvh-100`} id='blog'>
+    <section className={`${classes.blog} mvh-100`} id='skills'>
       <div className={classes.container}>
         <h2 data-aos='slide-right'>Blog</h2>
 

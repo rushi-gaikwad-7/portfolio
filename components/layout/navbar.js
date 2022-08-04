@@ -57,7 +57,7 @@ const Navbar = (props) => {
         }>
         <div className={classes.container}>
           <Link href='/'>
-            <a className={classes.logo}>.</a>
+            <a className={classes.logo}>𝓡𝓖</a>
           </Link>
 
           <nav
@@ -72,9 +72,9 @@ const Navbar = (props) => {
                 <a onClick={closeNav}>Projects</a>
               </Link>
 
-              <Link href='/#blog'>
-                <a href='#blog' onClick={closeNav}>
-                  Blog
+              <Link href='/#skills'>
+                <a href='#skills' onClick={closeNav}>
+                  Skills
                 </a>
               </Link>
               <Link href='/#about'>

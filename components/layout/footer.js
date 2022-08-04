@@ -5,19 +5,19 @@ const Footer = () => {
     <footer className={classes.footer}>
       <div className={classes.socialMedia}>
         <a
-          href='https://github.com/renebitter'
+          href='https://github.com/rushig777'
           target='_blank'
           rel='noreferrer'>
           <i className='fab fa-github'></i>
-        </a>
+        </a>{' '}
         <a
-          href='https://www.linkedin.com/in/rene-bitter/'
+          href='https://www.linkedin.com/in/gaikwadrushi/'
           target='_blank'
           rel='noreferrer'>
           <i className='fab fa-linkedin'></i>
         </a>
       </div>
-      <div>© Rene Bitter</div>
+      <div>© Rushi... 🖤</div>
       <small>
         Icons used from{' '}
         <a href='https://www.flaticon.com/' target='_blank' rel='noreferrer'>

@@ -19,7 +19,7 @@ function ContactModal(props) {
             </p>
             <div className={classes.linkedinLink}>
               <a
-                href='https://www.linkedin.com/in/rene-bitter/'
+                href='https://www.linkedin.com/in/gaikwadrushi'
                 target='_blank'
                 rel='noreferrer'>
                 <i className='fab fa-linkedin'></i>
@@ -48,7 +48,7 @@ function ContactModal(props) {
             </p>
             <div className={classes.linkedinLink}>
               <a
-                href='https://www.linkedin.com/in/rene-bitter/'
+                href='https://www.linkedin.com/in/gaikwadrushi'
                 target='_blank'
                 rel='noreferrer'>
                 <i className='fab fa-linkedin'></i>
@@ -106,7 +106,7 @@ function ContactModal(props) {
           <div className={classes.action}>
             <div className={classes.linkedinLink}>
               <a
-                href='https://www.linkedin.com/in/rene-bitter/'
+                href='https://www.linkedin.com/in/gaikwadrushi'
                 target='_blank'
                 rel='noreferrer'>
                 <i className='fab fa-linkedin'></i>

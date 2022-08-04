@@ -13,10 +13,10 @@ export default function Home(props) {
   return (
     <>
       <Head>
-        <title>Rene Bitter &lt;Web Developer /&gt;</title>
+        <title>Rushi &lt;Web Developer /&gt;</title>
         <meta
           name='description'
-          content='My personal web development portfolio including various frontend and fullstack projects as well as web development blog articles. Tech-Stack: React, Next.js, Redux, Typescript, Node.js, Express, MongoDB, Bootstrap, Shopware.'
+          content='My personal web development portfolio including various frontend and fullstack projects. Tech-Stack: React, Next.js, Redux, Typescript, Node.js, Express, MongoDB, Bootstrap.'
         />
       </Head>
       <Hero />

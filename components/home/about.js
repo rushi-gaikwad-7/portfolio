@@ -2,6 +2,7 @@ import classes from './about.module.scss';
 import { useEffect } from 'react';
 import Image from 'next/image';
 import Aos from 'aos';
+import myPic from '../../public/images/myPic.jpg'
 import 'aos/dist/aos.css';
 
 const About = () => {
@@ -52,7 +53,7 @@ const About = () => {
           <div className={classes.columnRight}>
             <div className={classes.imageContainer}>
               <Image
-                src='/portfolio/images/profile-pic-2.webp'
+                src={myPic}
                 width={600}
                 height={600}
                 alt='profile-pic'

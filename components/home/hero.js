@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import Modal from '../ui/modal/modal';
 import Aos from 'aos';
+import profilePic from '../../public/images/profile.png';
 import 'aos/dist/aos.css';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -35,58 +36,22 @@ const Hero = () => {
       <div className={classes.container}>
         <div className={classes.row}>
           <div className={classes.columnLeft}>
-            <h3 data-aos='fade-left'>Hi, my name is Rene.</h3>
+            <h3 data-aos='fade-left'>Hi, my name is Rushikesh Gaikwad.</h3>
             <h1 data-aos='fade-right'>
-              I&apos;m a React Frontend Developer with experience in e-commerce.
+              I&apos;m a Full stack web Developer.
             </h1>
             <p data-aos='fade-left' data-aos-delay='150'>
-              I&apos;m fluent in English{' '}
-              <span>
-                <Image
-                  src='/portfolio/images/usa.png'
-                  alt='usa-flag'
-                  width={16}
-                  height={16}
-                />
-              </span>
-              , German{' '}
-              <span>
-                <Image
-                  src='/portfolio/images/germany.png'
-                  alt='usa-flag'
-                  width={16}
-                  height={16}
-                />
-              </span>
-              , Portuguese{' '}
-              <span>
-                <Image
-                  src='/portfolio/images/brazil.png'
-                  alt='usa-flag'
-                  width={16}
-                  height={16}
-                />
-              </span>{' '}
-              and Javascript{' '}
-              <span>
-                <Image
-                  src='/portfolio/images/js.png'
-                  alt='usa-flag'
-                  width={16}
-                  height={16}
-                />
-              </span>
-              .
+            Who focuses on writing clean and user-friendly web-applications
             </p>
             <div className={classes.socialMedia}>
               <a
-                href='https://github.com/renebitter'
+                href='https://github.com/rushig777'
                 target='_blank'
                 rel='noreferrer'>
                 <i className='fab fa-github' data-aos='flip-up'></i>
               </a>
               <a
-                href='https://www.linkedin.com/in/rene-bitter/'
+                href='https://www.linkedin.com/in/gaikwadrushi'
                 target='_blank'
                 rel='noreferrer'>
                 <i
@@ -95,22 +60,13 @@ const Hero = () => {
                   data-aos-delay='50'></i>
               </a>{' '}
               <a
-                href='https://twitter.com/devrbitter'
+                href='https://twitter.com/_RUSHI_GAIKWAD'
                 target='_blank'
                 rel='noreferrer'>
                 <i
                   className='fab fa-twitter'
                   data-aos='flip-up'
                   data-aos-delay='100'></i>
-              </a>{' '}
-              <a
-                href='https://codepen.io/rbitterdev'
-                target='_blank'
-                rel='noreferrer'>
-                <i
-                  className='fab fa-codepen'
-                  data-aos='flip-up'
-                  data-aos-delay='150'></i>
               </a>
             </div>
             <div className={classes.ctaButtons}>
@@ -119,7 +75,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.9 }}
                 className='btn btn-filled'
                 onClick={buttonHandler}>
-                My Work
+                My Projects
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.1 }}
@@ -133,7 +89,7 @@ const Hero = () => {
 
           <div className={`${classes.columnRight} ${classes.profilePic}`}>
             <Image
-              src='/portfolio/images/profile-pic.webp'
+              src={profilePic}
               width={460}
               height={460}
               alt='profile-pic'
