@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
-
+import { motion, AnimatePresence } from 'framer-motion';
 const SkillBox = (props) => {
   const { title, img } = props.post;
   
@@ -13,6 +13,10 @@ const SkillBox = (props) => {
   }, []);
 
   return (
+    <motion.button
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+   >
     <div className={classes.card} data-aos='zoom-in-up'>
       <div className={classes.cardContent}>
         
@@ -26,6 +30,7 @@ const SkillBox = (props) => {
             /> */}
       </div> 
     </div>
+    </motion.button>
   );
 };
 export default SkillBox;
