@@ -1,29 +1,76 @@
 [
     {
       "id":1,
-      "img":"https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
+      "logo":"fa-brands fa-html5",
       "title":"HTML"  
     },
     {
-        "id":1,
-        "img":"https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
-        "title":"HTML"  
+        "id":2,
+        "logo":"fa-brands fa-css3-alt",
+        "title":"CSS"  
       },
       {
-        "id":1,
-        "img":"https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
-        "title":"HTML"  
+        "id":3,
+        "logo":"fa-brands fa-js",
+        "title":"JavaScript"  
       }, {
-        "id":1,
-        "img":"https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
-        "title":"HTML"  
-      }, {
-        "id":1,
-        "img":"https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
-        "title":"HTML"  
+        "id":4,
+        "logo":"fa-brands fa-react",
+        "title":"React.js"  
       },{
-        "id":1,
-        "img":"https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
-        "title":"HTML"  
-      }
+        "id":5,
+        "logo":"",
+        "title":"Redux"  
+      },
+      {
+        "id":6,
+        "logo":"",
+        "title":"TypeScript"  
+      },
+      {
+  
+        "id":7,
+        "logo":"",
+        "title":"Next.js"  
+      },
+      {
+          "id":8,
+          "logo":"fa-brands fa-node-js",
+          "title":"Node.js"  
+        },
+        {
+          "id":9,
+          "logo":"",
+          "title":"Express.js"  
+        }, {
+          "id":10,
+          "logo":"fa-solid fa-database",
+          "title":"MongoDB"  
+        }, {
+          "id":11,
+          "logo":"fa-solid fa-database",
+          "title":"Redis"  
+        },{
+          "id":12,
+          "logo":"fa-brands fa-bootstrap",
+          "title":"Bootstrap"  
+        },
+        {
+            "id":13,
+            "logo":"",
+            "title":"Tailwind CSS"  
+          },
+          {
+            "id":14,
+            "logo":"",
+            "title":"Styled-Components"  
+          }, {
+            "id":15,
+            "logo":"fa-brands fa-git-alt",
+            "title":"Git"  
+          }, {
+            "id":16,
+            "logo":"fa-brands fa-github",
+            "title":"GitHub"  
+          }
 ]

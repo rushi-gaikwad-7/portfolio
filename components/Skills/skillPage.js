@@ -6,8 +6,7 @@ import SkillBox from './skillbox';
 
 const Skills = (props) => {
   const { skills } = props;
-  console.log(skills)
-
+  
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
@@ -20,7 +19,7 @@ const Skills = (props) => {
           <div className={classes.gallery}>
             {skills !== null &&
               skills !== undefined &&
-              skills.map((skill,i) => <SkillBox post={skill} key={i} />)}
+              skills.map((skill,i) => <SkillBox skill={skill} key={i} />)}
           </div>
         </div>
       </div>

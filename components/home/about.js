@@ -24,13 +24,8 @@ const About = () => {
             <p>
               My developer career started with a great emphasis on e-commerce as
               a Shopware Frontend Developer and I even worked on the development
-              of <i className='fas fa-link'></i>{' '}
-              <a
-                href='https://github.com/shopware/platform'
-                target='_blank'
-                rel='noreferrer'>
-                Shopware 6
-              </a>
+              of {' '}
+            
               . Later on I specialized in React and it&apos;s ecosystem. I
               really like problem-solving in general and am addicted to the
               feeling of solving them.
