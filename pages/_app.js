@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
               name='viewport'
               content='width=device-width, initial-scale=1'
             />
-            <link rel='shortcut icon' href='/portfolio/favicon.ico' />
+            <link rel='shortcut icon' href='http://www.ricardogorski.com/wp-content/uploads/2021/06/RG-Logo-White.png' />
           </Head>
           <Component {...pageProps} currentTheme={theme} />
           <Footer />

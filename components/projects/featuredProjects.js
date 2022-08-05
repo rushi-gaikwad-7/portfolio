@@ -27,7 +27,7 @@ const FeaturedProjects = (props) => {
   return (
     <section className={classes.projects} id='projects'>
       <div className={classes.container}>
-        <h2 data-aos='slide-right'>Featured projects</h2>
+        <h2 data-aos='slide-right'>Projects</h2>
         <div data-aos='flip-up'>
           <Swiper
             effect={'cards'}

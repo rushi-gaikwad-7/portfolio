@@ -2,12 +2,12 @@ import Head from 'next/head';
 import Hero from '../components/home/hero';
 import FeaturedProjects from '../components/projects/featuredProjects';
 import About from '../components/home/about';
-import FeaturedPosts from '../components/posts/featuredPosts';
-import { getFeaturedPosts } from '../util/posts-util';
 import {
   getFeaturedProjects,
   getNonFeaturedProjects,
 } from '../util/projects-util';
+import { getAllSkills } from '../util/skills-util';
+import Skills from '../components/Skills/skillPage';
 
 export default function Home(props) {
   return (
@@ -21,20 +21,20 @@ export default function Home(props) {
       </Head>
       <Hero />
       <FeaturedProjects featuredProjects={props.featuredProjects} />
-      <FeaturedPosts posts={props.posts} />
+      <Skills skills={props.skills} />
       <About />
     </>
   );
 }
 
 export const getStaticProps = () => {
-  const featuredPosts = getFeaturedPosts();
+  const skills = getAllSkills();
   const featuredProjects = getFeaturedProjects();
   const nonFeaturedProjects = getNonFeaturedProjects();
 
   return {
     props: {
-      posts: featuredPosts,
+      skills: skills,
       featuredProjects: featuredProjects,
       nonFeaturedProjects: nonFeaturedProjects,
     },

@@ -80,6 +80,9 @@ const Navbar = (props) => {
               <Link href='/#about'>
                 <a onClick={closeNav}>About</a>
               </Link>
+              <Link  href='https://drive.google.com/file/d/1Odd1Ju8MzJ878e0foRm2itH0_H_zVDMy/view?usp=sharing'>
+                <a target='_blank' onClick={closeNav}>Resume</a>
+              </Link>
               <a
                 href='#!'
                 onClick={() => {
