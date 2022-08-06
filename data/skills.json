@@ -1,76 +1,77 @@
 [
     {
       "id":1,
-      "logo":"fa-brands fa-html5",
+      "logoImg":"https://cdn-icons-png.flaticon.com/512/174/174854.png",
       "title":"HTML"  
     },
     {
         "id":2,
-        "logo":"fa-brands fa-css3-alt",
+        "logoImg":"https://cdn-icons-png.flaticon.com/512/732/732190.png",
         "title":"CSS"  
       },
       {
         "id":3,
-        "logo":"fa-brands fa-js",
+        "logoImg":"https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
         "title":"JavaScript"  
       }, {
         "id":4,
-        "logo":"fa-brands fa-react",
+        "logoImg":"https://cdn-icons-png.flaticon.com/512/1126/1126012.png",
         "title":"React.js"  
       },{
         "id":5,
-        "logo":"",
+        "logoImg":"https://www.svgrepo.com/show/303557/redux-logo.svg",
         "title":"Redux"  
       },
       {
-        "id":6,
-        "logo":"",
-        "title":"TypeScript"  
-      },
-      {
-  
-        "id":7,
-        "logo":"",
-        "title":"Next.js"  
-      },
-      {
           "id":8,
-          "logo":"fa-brands fa-node-js",
+          "logoImg":"https://www.svgrepo.com/show/373929/node.svg",
           "title":"Node.js"  
         },
         {
           "id":9,
-          "logo":"",
+          "logoImg":"https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
           "title":"Express.js"  
         }, {
           "id":10,
-          "logo":"fa-solid fa-database",
+          "logoImg":"https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
           "title":"MongoDB"  
-        }, {
-          "id":11,
-          "logo":"fa-solid fa-database",
-          "title":"Redis"  
         },{
           "id":12,
-          "logo":"fa-brands fa-bootstrap",
+          "logoImg":"https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
           "title":"Bootstrap"  
         },
-        {
-            "id":13,
-            "logo":"",
-            "title":"Tailwind CSS"  
-          },
           {
             "id":14,
-            "logo":"",
+            "logoImg":"https://cdn.worldvectorlogo.com/logos/styled-components-1.svg",
             "title":"Styled-Components"  
           }, {
             "id":15,
-            "logo":"fa-brands fa-git-alt",
+            "logoImg":"https://cdn-icons-png.flaticon.com/512/6567/6567915.png",
             "title":"Git"  
           }, {
             "id":16,
-            "logo":"fa-brands fa-github",
+            "logoImg":"https://cdn-icons-png.flaticon.com/512/1051/1051326.png",
             "title":"GitHub"  
+          },
+          {
+            "id":13,
+            "logoImg":"https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+            "title":"Tailwind CSS"  
+          },
+           {
+            "id":11,
+            "logoImg":"https://www.vectorlogo.zone/logos/redis/redis-icon.svg",
+            "title":"Redis"  
+          },
+          {
+            "id":6,
+            "logoImg":"https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
+            "title":"TypeScript"  
+          },
+          {
+      
+            "id":7,
+            "logoImg":"https://www.svgrepo.com/show/306466/next-dot-js.svg",
+            "title":"Next.js"  
           }
 ]

@@ -1,39 +1,22 @@
 .card {
-  border-radius: 5px;
-  padding: 15px;
-  background-color: var(--background-card);
   transition: background 1s;
-  border: 1px solid var(--border-card);
-  margin-bottom: 25px;
-  display: flex;
-  align-items: center;
   min-height: 20px;
+  box-sizing: border-box;
+  padding-top: 15px;
   h4 {
-    margin: 0;
-    font-size: 20px;
+    font-size:15px;
     color: var(--text-secondary);
   }
-
   time {
     color: var(--text-tertiary);
   }
-i{
-  margin-right: 10px;
-  font-size: 25px;
-}
-  .cardAction {
-    display: flex;
-    flex-direction: row;
-    margin-top: auto;
-
-    a {
-      color: var(--accent);
-    }
   }
-}
 
 @media only screen and (min-width: 768px) {
   .card {
     margin-bottom: unset;
+  }
+  .card h4 {
+    font-size:16px;
   }
 }

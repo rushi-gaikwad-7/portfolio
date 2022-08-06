@@ -34,6 +34,12 @@ button {
   background-color: var(--background-secondary);
   border: 1px solid var(--button-border);
 }
+.btn-filled-dark{
+  color: var(--background-card);
+  background-color: var(--background-card);
+  border: 1px solid var(--border-card);
+  border-radius: 10px;
+}
 
 @media only screen and (min-width: 480px) {
   .btn {

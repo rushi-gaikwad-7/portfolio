@@ -1,23 +1,36 @@
-import Link from 'next/link';
-import classes from './skillBox.module.scss';
-import { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
+import classes from "./skillBox.module.scss";
+import { useEffect } from "react";
+import { motion } from "framer-motion";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import ImgLoader from "../../util/imageLoader";
+import Image from "next/image";
 const SkillBox = (props) => {
-  const { title, logo } = props.skill;
- 
+  const { title, logoImg } = props.skill;
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
 
   return (
-    <div className={classes.card} data-aos='zoom-in-up'>
-        <i className={`${logo}`}></i>
-        <h4>{title}</h4>
-      
-      </div> 
+    <motion.button
+      data-aos="zoom-in-up"
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className="btn-filled-dark"
+    >
+      <div className={classes.card}>
+      <Image
+          src={logoImg}
+          data-aos="fade-left"
+          loader={ImgLoader}
+          alt="logo"
+          priority
+          width={40}
+          height={40}
+        />
+        <h4 >{title}</h4>
+      </div>
+    </motion.button>
   );
 };
 export default SkillBox;

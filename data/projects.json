@@ -1,9 +1,9 @@
 [
   {
     "_id": "1",
-    "slug": "mernshop",
+    "slug": "max",
     "title": "Max-fashion clone",
-    "tech": ["React", "Redux", "MongoDB", "Node", "Express", "Bootstrap"],
+    "tech": ["Next.js", "Redux", "MongoDB", "Node.js", "Express.js", "Bootstrap"],
     "description": "Fully functional e-commerce website including pages from product listing to payment and admin area with CRUD functionality for users, products and orders. Authentication handled with JWT. Redux for state management.",
     "liveLink": "https://mernshop-99.herokuapp.com/",
     "githubLink": "https://github.com/renebitter/mernshop",

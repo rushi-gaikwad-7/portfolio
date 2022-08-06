@@ -2,7 +2,7 @@ import classes from './about.module.scss';
 import { useEffect } from 'react';
 import Image from 'next/image';
 import Aos from 'aos';
-import myPic from '../../public/images/myPic.jpg'
+import myPic from '../../public/images/abtimg.jpg'
 import 'aos/dist/aos.css';
 
 const About = () => {
