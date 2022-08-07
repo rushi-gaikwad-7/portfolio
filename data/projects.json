@@ -15,127 +15,44 @@
         "description": "Homepage with navbar and hero element."
       },
       {
-        "screenshot": "02-home.png",
-        "description": "Homepage. Carousel with 3 top-rated products and general product listing."
-      },
-      {
-        "screenshot": "03-home.png",
-        "description": "Homepage. Product listing and pagination."
-      },
-      {
-        "screenshot": "04-product-detail-page.png",
-        "description": "Product detail page. Product description, review rating, price, stock status, quantity selector, add to cart button and review section."
-      },
-      { "screenshot": "06-cart-empty.png", "description": "Empty cart." },
-      {
-        "screenshot": "05-cart-full.png",
-        "description": "Multiple products added to cart. Quantity selection and price updates."
-      },
-      {
-        "screenshot": "07-shipping.png",
-        "description": "Shipping address."
-      },
-      {
-        "screenshot": "08-payment.png",
-        "description": "Payment method selection."
-      },
-      {
-        "screenshot": "09-order-summary.png",
-        "description": "Order summary including shipping address, payment method, order items, prices and total price."
-      },
-      {
-        "screenshot": "10-order-payment.png",
-        "description": "Order payment."
-      },
-      {
-        "screenshot": "11-order-paypal.png",
-        "description": "Paypal integration."
-      },
-      {
-        "screenshot": "12-order-paid.png",
-        "description": "Order summary - paid."
-      },
-      {
-        "screenshot": "14-sign-in.png",
-        "description": "Sign in."
-      },
-      {
-        "screenshot": "15-register.png",
-        "description": "Sign up."
-      },
-      {
-        "screenshot": "16-admin-user-list.png",
-        "description": "Admin user list."
-      },
-      {
-        "screenshot": "17-admin-user-edit.png",
-        "description": "Admin user edit."
-      },
-      {
-        "screenshot": "18-admin-product-list.png",
-        "description": "Admin product list."
-      },
-      {
-        "screenshot": "19-admin-product-edit.png",
-        "description": "Admin product edit/create."
-      },
-      {
-        "screenshot": "20-admin-order-list.png",
-        "description": "Admin order list."
-      },
-      {
-        "screenshot": "21-admin-order-edit.png",
-        "description": "Admin order edit. Mark as delivered."
-      },
-      {
-        "screenshot": "22-admin-order-edit-2.png",
-        "description": "Admin order delivered."
-      },
-      {
-        "screenshot": "23-user-profile-orders.png",
-        "description": "User profile orders."
-      },
-      {
-        "screenshot": "24-user-profile-order-delivered.png",
-        "description": "User profile order delivered."
+        "screenshot": "https://i.ibb.co/rFVf7YC/max-fashion-one.png",
+        "description": "Homepage with navbar and hero element."
       }
     ]
   },
   {
     "_id": "2",
-    "title": "Portfolio-Blog website",
-    "tech": ["React", "Next.js", "Markdown", "Sass"],
-    "description": "Developed with Next.js using Static Site Generation. Dynamic pages for projects and blog posts. Blog posts written in markdown and rendered with react-markdown. Framer motion for the \"eye candy\".",
-    "liveLink": "https://renebitter.github.io/portfolio",
-    "githubLink": "https://github.com/renebitter/portfolio",
+    "title": "Portfolio website",
+    "tech": ["React", "Next.js","Sass"],
+    "description": "Developed with Next.js using Static Site Generation. Dynamic pages for projects and Framer motion for the \"eye candy\".",
+    "liveLink": "",
+    "githubLink": "https://github.com/rushig777/portfolio",
     "image": "https://serving.photos.photobox.com/0615649131c6249847fb9e538972c2a69d7c6d8389d57deb699dfeb3b1e2d774ba81e315.jpg",
     "isFeatured": true
   },
   {
     "_id": "3",
-    "title": "eCommerce website - Next.js and Typescript",
+    "title": "Udemy-clone",
     "tech": [
-      "React",
-      "Typescript",
-      "Next.js",
-      "MongoDB",
-      "Node",
-      "Express",
-      "Contentful"
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
-    "description": "Current project under development.",
-    "image": "typescript.webp",
-    "isFeatured": false
+    "description": "Fully functional e-commerce website",
+    "liveLink": "https://verdant-kitten-680f9d.netlify.app/",
+    "githubLink": "https://github.com/rushig777/Udemy-clone",
+    "image": "https://serving.photos.photobox.com/6188268440eef62a17135a97661a8991a683d0620e5c75304e769ca473c3b1e33ff3727f.jpg",
+    "isFeatured": true
   },
 
   {
-    "_id": "9",
+    "_id": "4",
     "title": "Shopware",
     "tech": ["Shopware", "Bootstrap", "Twig", "Smarty"],
     "description": "Worked on the development of Shopware 6 and many other Shopware 5 and 6 projects for mid and large size B2B and B2C clients in Germany.",
     "githubLink": "https://github.com/shopware/platform",
     "image": "shopware.png",
-    "isFeatured": true
+    "isFeatured": false
   },
   {
     "_id": "4",
@@ -168,13 +85,5 @@
     "description": "Blog posts written in markdown and rendered with \"react-markdown\". Notifications displayed via react portal through \"_document.js.\". Contact form using mongodb.",
     "liveLink": "https://nextjs-blog-renebitter.vercel.app/",
     "githubLink": "https://github.com/renebitter/nextjs-blog"
-  },
-  {
-    "_id": "8",
-    "title": "Resort website with room listing and filtering",
-    "tech": ["React", "Contentful"],
-    "description": "Simple resort website with room listing and filter settings. Used react context API for state management and Contentful for content (image, text) delivery.",
-    "liveLink": "https://react-resort-project.netlify.app/",
-    "githubLink": "https://github.com/renebitter/react_resort"
   }
 ]

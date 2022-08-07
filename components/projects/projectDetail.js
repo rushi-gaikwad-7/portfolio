@@ -1,11 +1,12 @@
-import Image from 'next/image';
-import classes from './projectDetail.module.scss';
+import Image from "next/image";
+import classes from "./projectDetail.module.scss";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import ImgLoader from "../../util/imageLoader";
 
 const ProjectDetail = (props) => {
   const { project } = props;
@@ -13,19 +14,19 @@ const ProjectDetail = (props) => {
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + '</span>';
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   };
 
   return (
     <div className={classes.projectDetail}>
-      <div className='container section mvh-100 projectDetail'>
+      <div className="container section mvh-100 projectDetail">
         <h1>{project.title}</h1>
 
         <div>
           <small>
             {Array.isArray(project.tech)
-              ? project.tech.join(', ')
+              ? project.tech.join(", ")
               : project.tech}
           </small>
           <p>{project.description}</p>
@@ -33,14 +34,14 @@ const ProjectDetail = (props) => {
 
         <div className={classes.projectLinks}>
           {project.githubLink && (
-            <a href={project.githubLink} target='_blank' rel='noreferrer'>
-              <i className='fab fa-github'></i>
+            <a href={project.githubLink} target="_blank" rel="noreferrer">
+              <i className="fab fa-github"></i>
               Github
             </a>
           )}
           {project.liveLink && (
-            <a href={project.liveLink} target='_blank' rel='noreferrer'>
-              <i className='fas fa-link'></i>
+            <a href={project.liveLink} target="_blank" rel="noreferrer">
+              <i className="fas fa-link"></i>
               Website
             </a>
           )}
@@ -58,15 +59,16 @@ const ProjectDetail = (props) => {
               // pagination={{
               //   dynamicBullets: true,
               // }}
-              className='mySwiper'>
+              className="mySwiper"
+            >
               {project.screenshots.map((screenshot, index) => (
                 <SwiperSlide key={index}>
                   <>
                     <Image
-                      // layout='responsive'
-                      src={`../../portfolio/images/projects/${project.slug}/${screenshot.screenshot}`}
-                      width={600}
-                      height={460}
+                      src={screenshot.screenshot}
+                      loader={ImgLoader}
+                      height={600}
+                      width={1060}
                       alt={screenshot.description}
                     />
                     <div>{screenshot.description}</div>
@@ -82,7 +84,7 @@ const ProjectDetail = (props) => {
                 src={`../../portfolio/images/projects/${project.image}`}
                 width={500}
                 height={360}
-                alt=''
+                alt=""
               />
             </div>
           )

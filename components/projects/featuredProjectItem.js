@@ -24,8 +24,8 @@ const FeaturedProjectItem = (props) => {
               <Image
                 src={project.image}
                 loader={ImgLoader}
-                height={540}
-                width={940}
+                height={350}
+                width={600}
                 alt={project.title}
               />
             </div>
