@@ -1,6 +1,9 @@
 .greetings {
-  padding: 25px 15px 50px;
+  padding: 25px 15px 50px ;
 
+  .container {
+   margin-top: 50px;
+  }
   .row {
     display: flex;
     flex-flow: column;

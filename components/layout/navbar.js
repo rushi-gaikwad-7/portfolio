@@ -51,7 +51,7 @@ const Navbar = (props) => {
 
   return (
     <>
-      <div
+      <div id='navbar'
         className={
           sticky ? `${classes.navbar}  ${classes.sticky}` : `${classes.navbar} `
         }>
@@ -91,7 +91,7 @@ const Navbar = (props) => {
                 }}>
                 <i className='fa fa-envelope'></i>
               </a>
-              <a
+              <a 
                 href='#!'
                 onClick={() => {
                   setThemeHandler();
@@ -103,9 +103,21 @@ const Navbar = (props) => {
                   <i className='fa fa-sun'></i>
                 )}
               </a>
+           
             </div>
           </nav>
-
+          <a className={classes.icon}
+                href='#!'
+                onClick={() => {
+                  setThemeHandler();
+                  closeNav();
+                }}>
+                {theme === 'light' ? (
+                  <i className='fa fa-moon'></i>
+                ) : (
+                  <i className='fa fa-sun'></i>
+                )}
+              </a>
           <button className={classes.icon} onClick={toggleNav}>
             <i className='fa fa-bars'></i>
           </button>

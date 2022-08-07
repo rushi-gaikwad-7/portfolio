@@ -3,13 +3,13 @@
   transition: background 1s;
   color: var(--text-secondary);
   text-align: center;
-  padding: 25px;
+  padding: 10px;
 
   .socialMedia {
     margin-bottom: 5px;
     i {
       font-size: 2rem;
-      margin: 0 5px;
+      margin: 0 10px;
       color: var(--text-secondary);
     }
   }
@@ -18,3 +18,5 @@
     font-size: 0.7rem;
   }
 }
+
+

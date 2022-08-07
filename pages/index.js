@@ -23,6 +23,7 @@ export default function Home(props) {
       <FeaturedProjects featuredProjects={props.featuredProjects} />
       <Skills skills={props.skills} />
       <About />
+     
     </>
   );
 }
