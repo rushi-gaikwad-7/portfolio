@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Aos from 'aos';
 import myPic from '../../public/images/abtimg.jpg'
 import 'aos/dist/aos.css';
+import ImgLoader from '../../util/imageLoader';
 
 const About = () => {
   useEffect(() => {
@@ -48,9 +49,10 @@ const About = () => {
           <div className={classes.columnRight}>
             <div className={classes.imageContainer}>
               <Image
-                src={myPic}
+                src="https://i.ibb.co/0sTgd6R/3242244.png"
                 width={600}
                 height={600}
+                loader={ImgLoader}
                 alt='profile-pic'
                 data-aos='fade-left'
               />

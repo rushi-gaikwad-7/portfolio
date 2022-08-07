@@ -3,15 +3,15 @@
     "_id": "1",
     "slug": "max",
     "title": "Max-fashion clone",
-    "tech": ["Next.js", "Redux", "MongoDB", "Node.js", "Express.js", "Bootstrap"],
+    "tech": ["CSS","JavaScript","Next.js","Redux","Node.js", "Express.js", "MongoDB","Bootstrap","Styled-components","Material UI"],
     "description": "Fully functional e-commerce website including pages from product listing to payment and admin area with CRUD functionality for users, products and orders. Authentication handled with JWT. Redux for state management.",
-    "liveLink": "https://mernshop-99.herokuapp.com/",
-    "githubLink": "https://github.com/renebitter/mernshop",
-    "image": "mernshop.webp",
+    "liveLink": "https://clone-of-max-fashion.netlify.app/",
+    "githubLink": "https://github.com/rushig777/festive-crayon-1023",
+    "image": "https://serving.photos.photobox.com/72303365fc799e34f198613e9091afbbefd3d6302683bff61e4ae265b86db0b78aeb4117.jpg",
     "isFeatured": true,
     "screenshots": [
       {
-        "screenshot": "01-home.png",
+        "screenshot": "https://i.ibb.co/rFVf7YC/max-fashion-one.png",
         "description": "Homepage with navbar and hero element."
       },
       {
@@ -108,7 +108,7 @@
     "description": "Developed with Next.js using Static Site Generation. Dynamic pages for projects and blog posts. Blog posts written in markdown and rendered with react-markdown. Framer motion for the \"eye candy\".",
     "liveLink": "https://renebitter.github.io/portfolio",
     "githubLink": "https://github.com/renebitter/portfolio",
-    "image": "portfolio.jpg",
+    "image": "https://serving.photos.photobox.com/0615649131c6249847fb9e538972c2a69d7c6d8389d57deb699dfeb3b1e2d774ba81e315.jpg",
     "isFeatured": true
   },
   {
