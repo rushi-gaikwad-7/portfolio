@@ -14,9 +14,9 @@
   }
 
   .logo {
-    color: #ffffff;
+    color:  var(--transparent-primary);
     font-weight: bold;
-    background-color: #8bb2c3;
+    background-color: var(--text-secondary);
     border-radius: 50%;
     padding: 5px;
     font-size: 1.5rem;

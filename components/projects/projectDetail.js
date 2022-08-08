@@ -65,7 +65,7 @@ const ProjectDetail = (props) => {
                 <SwiperSlide key={index}>
                   <>
                     <Image
-                      src={screenshot.screenshot}
+                      src={`/images/projects/${screenshot.screenshot}`}
                       loader={ImgLoader}
                       height={600}
                       width={1060}
@@ -81,7 +81,7 @@ const ProjectDetail = (props) => {
           project.image && (
             <div className={classes.projectImage}>
                <Image
-                      src={project.image}
+                      src={`/images/projects/${project.image}`}
                       loader={ImgLoader}
                       height={600}
                       width={1060}

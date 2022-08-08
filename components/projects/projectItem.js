@@ -44,4 +44,4 @@ const ProjectItem = (props) => {
   );
 };
 
-export default ProjectItem;
+export default ProjectItem

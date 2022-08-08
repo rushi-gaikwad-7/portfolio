@@ -27,13 +27,13 @@ const AllProjects = (props) => {
   //Sort techs alphabetically
   selectedTechs.sort();
 
-  //Set "filter" & current active button
+
   const handleClick = (tech) => {
     setFilter(tech);
     setActiveButton(tech);
   };
 
-  //Filter projects according to "filter"
+ 
   let filteredProjects;
 
   if (filter === 'all') {
@@ -43,7 +43,7 @@ const AllProjects = (props) => {
       project.tech.includes(filter)
     );
   }
-  //TODO: Add filteredProjects.length to respective btns
+ 
 
   return (
     <div className={classes.projectsGallery}>
@@ -91,6 +91,6 @@ const AllProjects = (props) => {
         </div>
       </div>
     </div>
-  );
-};
-export default AllProjects;
+  )
+}
+export default AllProjects

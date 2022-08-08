@@ -7,15 +7,15 @@
     "description": "Fully functional e-commerce website including pages from product listing to payment and admin area with CRUD functionality for users, products and orders. Authentication handled with JWT. Redux for state management.",
     "liveLink": "https://clone-of-max-fashion.netlify.app/",
     "githubLink": "https://github.com/rushig777/festive-crayon-1023",
-    "image": "https://serving.photos.photobox.com/72303365fc799e34f198613e9091afbbefd3d6302683bff61e4ae265b86db0b78aeb4117.jpg",
+    "image": "max-fashion-one.png",
     "isFeatured": true,
     "screenshots": [
       {
-        "screenshot": "https://i.ibb.co/rFVf7YC/max-fashion-one.png",
+        "screenshot": "max-fashion-one.png",
         "description": "Homepage with navbar and hero element."
       },
       {
-        "screenshot": "https://i.ibb.co/rFVf7YC/max-fashion-one.png",
+        "screenshot": "max-fashion-one.png",
         "description": "Homepage with navbar and hero element."
       }
     ]
@@ -27,7 +27,7 @@
     "description": "Developed with Next.js using Static Site Generation. Dynamic pages for projects and Framer motion for the \"eye candy\".",
     "liveLink": "",
     "githubLink": "https://github.com/rushig777/portfolio",
-    "image": "https://serving.photos.photobox.com/0615649131c6249847fb9e538972c2a69d7c6d8389d57deb699dfeb3b1e2d774ba81e315.jpg",
+    "image": "portfolio.png",
     "isFeatured": true
   },
   {
@@ -43,39 +43,5 @@
     "githubLink": "https://github.com/rushig777/Udemy-clone",
     "image": "https://serving.photos.photobox.com/6188268440eef62a17135a97661a8991a683d0620e5c75304e769ca473c3b1e33ff3727f.jpg",
     "isFeatured": true
-  },
-
-  {
-    "_id": "4",
-    "title": "Shopware",
-    "tech": ["Shopware", "Bootstrap", "Twig", "Smarty"],
-    "description": "Worked on the development of Shopware 6 and many other Shopware 5 and 6 projects for mid and large size B2B and B2C clients in Germany.",
-    "githubLink": "https://github.com/shopware/platform",
-    "image": "shopware.png",
-    "isFeatured": false
-  },
-  {
-    "_id": "5",
-    "title": "Contact Keeper - MERN Fullstack",
-    "tech": ["React", "MongoDB", "Node", "Express", "Context"],
-    "description": "This is a MERN Fullstack project with authentication and CRUD functionality.",
-    "liveLink": "https://contactkeeper53773.herokuapp.com/",
-    "githubLink": "https://github.com/renebitter/contact_keeper"
-  },
-  {
-    "_id": "6",
-    "title": "Message Logger App - MERN Fullstack",
-    "tech": ["React", "Redux", "MongoDB", "Node", "Express"],
-    "description": "This is a MERN + Redux project with authentication and CRUD functionality. Functionalities: Add/delete logs & users; list logs/users",
-    "liveLink": "https://itlogger-04360.herokuapp.com/",
-    "githubLink": "https://github.com/renebitter/it-logger-full-stack"
-  },
-  {
-    "_id": "7",
-    "title": "Blog",
-    "tech": ["React", "Next.js", "Markdown", "MongoDB"],
-    "description": "Blog posts written in markdown and rendered with \"react-markdown\". Notifications displayed via react portal through \"_document.js.\". Contact form using mongodb.",
-    "liveLink": "https://nextjs-blog-renebitter.vercel.app/",
-    "githubLink": "https://github.com/renebitter/nextjs-blog"
   }
 ]

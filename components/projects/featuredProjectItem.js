@@ -22,7 +22,7 @@ const FeaturedProjectItem = (props) => {
           <div className={classes.columnRight}>
             <div className={classes.card}>
               <Image
-                src={project.image}
+                src={`/images/projects/${project.image}`}
                 loader={ImgLoader}
                 height={350}
                 width={600}
