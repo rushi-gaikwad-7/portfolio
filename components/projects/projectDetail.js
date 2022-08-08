@@ -80,12 +80,13 @@ const ProjectDetail = (props) => {
         ) : (
           project.image && (
             <div className={classes.projectImage}>
-              <Image
-                src={`../../portfolio/images/projects/${project.image}`}
-                width={500}
-                height={360}
-                alt=""
-              />
+               <Image
+                      src={project.image}
+                      loader={ImgLoader}
+                      height={600}
+                      width={1060}
+                      alt={project.description}
+                    />
             </div>
           )
         )}
