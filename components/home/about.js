@@ -2,7 +2,7 @@ import classes from './about.module.scss';
 import { useEffect } from 'react';
 import Image from 'next/image';
 import Aos from 'aos';
-import myPic from '../../public/images/abtimg.jpg'
+import myPic from '../../public/images/aboutPic.jpg'
 import 'aos/dist/aos.css';
 import ImgLoader from '../../util/imageLoader';
 
@@ -49,9 +49,9 @@ const About = () => {
           <div className={classes.columnRight}>
             <div className={classes.imageContainer}>
               <Image
-                src="https://i.ibb.co/0sTgd6R/3242244.png"
-                width={600}
-                height={600}
+                src={myPic}
+                width={400}
+                height={630}
                 loader={ImgLoader}
                 alt='profile-pic'
                 data-aos='fade-left'
