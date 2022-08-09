@@ -3,8 +3,8 @@ import classes from './footer.module.scss';
 const Footer = () => {
   return (
     <footer className={classes.footer}>
-      <span>Don't be a stranger.!</span>
-      <p>Let's connect..!</p>
+      <span>Don&apos;t be a stranger.!</span>
+      <p>Let&apos;s connect..!</p>
       <div className={classes.socialMedia}>
         <a
           href='https://github.com/rushig777'

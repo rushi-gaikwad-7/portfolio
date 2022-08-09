@@ -39,8 +39,22 @@
       "JavaScript"
     ],
     "description": "Fully functional e-commerce website",
-    "liveLink": "https://verdant-kitten-680f9d.netlify.app/",
+    "liveLink": "https://cloneof-udemy.netlify.app/",
     "githubLink": "https://github.com/rushig777/Udemy-clone",
+    "image": "https://serving.photos.photobox.com/6188268440eef62a17135a97661a8991a683d0620e5c75304e769ca473c3b1e33ff3727f.jpg",
+    "isFeatured": true
+  },
+  {
+    "_id": "4",
+    "title": "Mantra-clone",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Fully functional e-commerce website",
+    "liveLink": "https://clone-of-myntra.netlify.app/",
+    "githubLink": "https://github.com/rushig777/myntra-clone",
     "image": "https://serving.photos.photobox.com/6188268440eef62a17135a97661a8991a683d0620e5c75304e769ca473c3b1e33ff3727f.jpg",
     "isFeatured": true
   }
