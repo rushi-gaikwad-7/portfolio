@@ -40,7 +40,7 @@ const FeaturedProjects = (props) => {
             className='featuredProjects mySwiper'>
             {featuredProjects.map((project) => (
               <SwiperSlide key={project._id}>
-                <FeaturedProjectItem project={project} />
+                <FeaturedProjectItem  project={project} />
               </SwiperSlide>
             ))}
           </Swiper>

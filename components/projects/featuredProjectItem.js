@@ -2,13 +2,14 @@ import classes from "./featuredProjectItem.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import ImgLoader from "../../util/imageLoader";
+import { useRouter } from "next/router";
 
 const FeaturedProjectItem = (props) => {
   const { project } = props;
 
   return (
     <>
-      <div className={classes.project}>
+      <div className={classes.project} >
         <div className="title">
           <h3>{project.title}</h3>
           <small>
@@ -20,8 +21,8 @@ const FeaturedProjectItem = (props) => {
 
         <div className={classes.row}>
           <div className={classes.columnRight}>
-            <div className={classes.card}>
-              <Image
+            <div   className={classes.card}>
+              <Image 
                 src={`/images/projects/${project.image}`}
                 loader={ImgLoader}
                 height={350}
