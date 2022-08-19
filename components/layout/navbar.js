@@ -90,23 +90,10 @@ const Navbar = (props) => {
                   closeNav();
                 }}>
                 <i className='fa fa-envelope'></i>
-              </a>
-              <a 
-                href='#!'
-                onClick={() => {
-                  setThemeHandler();
-                  closeNav();
-                }}>
-                {theme === 'light' ? (
-                  <i className='fa fa-moon'></i>
-                ) : (
-                  <i className='fa fa-sun'></i>
-                )}
-              </a>
-           
+              </a>           
             </div>
           </nav>
-          <a className={classes.icon}
+          <a className={classes.themeLogo}
                 href='#!'
                 onClick={() => {
                   setThemeHandler();

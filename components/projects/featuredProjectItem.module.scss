@@ -44,7 +44,7 @@
   }
 
   .columnRight {
-    max-width: 500px;
+    max-width: 700px;
     margin: 25px auto 0;
 
     .card {
@@ -72,20 +72,20 @@
 
     .columnLeft {
       order: 1;
-      width: 50%;
+      width: 40%;
       display: flex;
       flex-direction: column;
-      padding-right: 25px;
+      // padding-right: 15px;
     }
 
     .columnRight {
       order: 2;
-      width: 50%;
+      width: 60%;
       margin: 0;
       margin-left: auto;
     }
     small {
-    width: 55%;
+    width:40%;
     display: flex;
     }
   }

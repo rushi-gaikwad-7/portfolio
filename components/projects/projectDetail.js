@@ -46,7 +46,7 @@ const ProjectDetail = (props) => {
             </a>
           )}
         </div>
-
+<br/>
         {project.screenshots ? (
           <div>
             <h2>Screenshots & description</h2>
@@ -79,6 +79,7 @@ const ProjectDetail = (props) => {
           </div>
         ) : (
           project.image && (
+            
             <div className={classes.projectImage}>
                <Image
                       src={`/images/projects/${project.image}`}
