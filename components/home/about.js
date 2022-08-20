@@ -1,10 +1,10 @@
-import classes from './about.module.scss';
-import { useEffect } from 'react';
-import Image from 'next/image';
-import Aos from 'aos';
-import myPic from '../../public/images/aboutPic.jpg'
-import 'aos/dist/aos.css';
-import ImgLoader from '../../util/imageLoader';
+import classes from "./about.module.scss";
+import { useEffect } from "react";
+import Image from "next/image";
+import Aos from "aos";
+import myPic from "../../public/images/aboutimage.jpg";
+import "aos/dist/aos.css";
+import ImgLoader from "../../util/imageLoader";
 
 const About = () => {
   useEffect(() => {
@@ -12,37 +12,30 @@ const About = () => {
   }, []);
 
   return (
-    <section className={classes.about} id='about'>
+    <section className={classes.about} id="about">
       <div className={classes.container}>
-        <h2 data-aos='slide-right'>About me</h2>
+        <h2 data-aos="slide-right">About me</h2>
 
         <div className={classes.row}>
-          <div className={classes.columnLeft} data-aos='fade-right'>
+          <div className={classes.columnLeft} data-aos="fade-right">
             <h3>
-              Moved by the desire to work with something creative I began
-              learning Web Development in 2017.
+            My journey started as a coder when I printed the words  &apos;&apos;Hello World&apos;&apos; , and now I am an enthusiastic and passionate Full Stack Web Developer.
             </h3>
             <p>
-              My developer career started with a great emphasis on e-commerce as
-              a Shopware Frontend Developer and I even worked on the development
-              of {' '}
-            
-              . Later on I specialized in React and it&apos;s ecosystem. I
-              really like problem-solving in general and am addicted to the
-              feeling of solving them.
+              While I was studying B.Tech, I got interested in coding. After the
+              phase of lockdowns began, in my free time I started learning how
+              to code with the help of YouTube videos. During this time, I came
+              across Masai School and decided to join. After spending half a
+              month at the institute, I became certain that I will pursue web
+              development as my career.
             </p>
 
             <p>
-              Besides Web Development I have a diverse work experience ranging
-              from Airfreight Logistics at the Frankfurt Airport in Germany to
-              Customer Support in Tech Companies around Europe and Brazil.
+            Besides coding, I focus on physical and mental fitness by going to the gym, meditating, and playing chess and cricket.
             </p>
 
             <p>
-              I&apos;m no stranger to multiculturalism and I appreciate
-              diversity as well as discovering and experiencing new cultures.
-              Loving nature and being outdoors makes my favorite pastime hiking
-              and mountain climbing.
+            Looking forward to joining a progressive and challenging work environment that demands the best of my professional ability in terms of technical and analytical skills, and helps me in broadening and enhancing my current skill and knowledge.
             </p>
           </div>
 
@@ -53,8 +46,8 @@ const About = () => {
                 width={400}
                 height={630}
                 loader={ImgLoader}
-                alt='profile-pic'
-                data-aos='fade-left'
+                alt="profile-pic"
+                data-aos="fade-left"
               />
             </div>
           </div>
