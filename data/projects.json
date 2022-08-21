@@ -52,10 +52,28 @@
       "CSS",
       "JavaScript"
     ],
-    "description": "Myntra is an e-commerce website where people can buy from wide range of products and has an interactive UI . a Collaborative project built by a team of 6 executed in 6 days.",
+    "description": "Myntra is an e-commerce website where people can buy from wide range of products and has an interactive UI .Collaborative project built by a team of 6 executed in 6 days.",
     "liveLink": "https://clone-of-myntra.netlify.app/",
     "githubLink": "https://github.com/rushig777/myntra-clone",
     "image": "myntra-one.png",
-    "isFeatured": true
+    "isFeatured": true,
+    "screenshots": [
+      {
+        "screenshot": "myntra-one.png",
+        "description": "Homepage with navbar element."
+      },
+      {
+        "screenshot": "myntra-two.png",
+        "description": "product page ."
+      },
+      {
+        "screenshot": "myntra-three.png",
+        "description": "product details page ."
+      },
+      {
+        "screenshot": "myntra-four.png",
+        "description": "card page ."
+      }
+    ]
   }
 ]
