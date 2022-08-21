@@ -4,7 +4,7 @@
     "slug": "max",
     "title": "Max-fashion clone",
     "tech": ["CSS","JavaScript","Next.js","Redux","Node.js", "Express.js", "MongoDB","Bootstrap","Styled-components","Material UI"],
-    "description": "Fully functional e-commerce website including pages from product listing to payment . Authentication handled with JWT. Redux for state management.",
+    "description": "Max Fashion is an Indian fashion brand under the banner of the Mumbai based Landmark Group. e-commerce website including pages from product listing to payment . Authentication handled with JWT. Redux for state management.",
     "liveLink": "https://clone-of-max-fashion.netlify.app/",
     "githubLink": "https://github.com/rushig777/festive-crayon-1023",
     "image": "max-fashion-one.png",
@@ -25,7 +25,7 @@
     "title": "Portfolio website",
     "tech": ["React", "Next.js","Sass"],
     "description": "Developed with Next.js using Static Site Generation. Dynamic pages for projects and Framer motion for the \"eye candy\".",
-    "liveLink": "",
+    "liveLink": "https://rushikesh-gaikwad-portfolio.netlify.app/",
     "githubLink": "https://github.com/rushig777/portfolio",
     "image": "portfolio.png",
     "isFeatured": true
@@ -46,20 +46,6 @@
   },
   {
     "_id": "4",
-    "title": "Mantra-clone",
-    "tech": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "description": "Fully functional e-commerce website",
-    "liveLink": "https://clone-of-myntra.netlify.app/",
-    "githubLink": "https://github.com/rushig777/myntra-clone",
-    "image": "https://serving.photos.photobox.com/6188268440eef62a17135a97661a8991a683d0620e5c75304e769ca473c3b1e33ff3727f.jpg",
-    "isFeatured": true
-  },
-  {
-    "_id": "5",
     "title": "Mantra-clone",
     "tech": [
       "HTML",
