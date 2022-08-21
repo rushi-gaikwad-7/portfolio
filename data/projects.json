@@ -4,7 +4,7 @@
     "slug": "max",
     "title": "Max-fashion clone",
     "tech": ["CSS","JavaScript","Next.js","Redux","Node.js", "Express.js", "MongoDB","Bootstrap","Styled-components","Material UI"],
-    "description": "Max Fashion is an Indian fashion brand under the banner of the Mumbai based Landmark Group. e-commerce website including pages from product listing to payment . Authentication handled with JWT. Redux for state management.",
+    "description": "Max Fashion is an Indian fashion brand under the banner of the Mumbai based Landmark Group. e-commerce website including pages from product listing to payment. Authentication handled with JWT. Redux for state management.",
     "liveLink": "https://clone-of-max-fashion.netlify.app/",
     "githubLink": "https://github.com/rushig777/festive-crayon-1023",
     "image": "max-fashion-one.png",
