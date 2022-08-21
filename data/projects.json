@@ -15,8 +15,16 @@
         "description": "Homepage with navbar and hero element."
       },
       {
-        "screenshot": "max-fashion-one.png",
-        "description": "Homepage with navbar and hero element."
+        "screenshot": "max-fashion-two.png",
+        "description": "project swapper."
+      },
+      {
+        "screenshot": "max-fashion-three.png",
+        "description": "skill element."
+      },
+      {
+        "screenshot": "max-fashion-four.png",
+        "description": "all project page element."
       }
     ]
   },
@@ -28,7 +36,25 @@
     "liveLink": "https://rushikesh-gaikwad-portfolio.netlify.app/",
     "githubLink": "https://github.com/rushig777/portfolio",
     "image": "portfolio.png",
-    "isFeatured": true
+    "isFeatured": true,
+    "screenshots": [
+      {
+        "screenshot": "portfolio.png",
+        "description": "Homepage with navbar and hero element."
+      },
+      {
+        "screenshot": "portfolio.png",
+        "description": "project swapper."
+      },
+      {
+        "screenshot": "portfolio.png",
+        "description": "skill element."
+      },
+      {
+        "screenshot": "portfolio-four.png",
+        "description": "all project page element."
+      }
+    ]
   },
   {
     "_id": "3",
