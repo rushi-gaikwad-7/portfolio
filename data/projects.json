@@ -4,7 +4,7 @@
     "slug": "max",
     "title": "Max-fashion clone",
     "tech": ["CSS","JavaScript","Next.js","Redux","Node.js", "Express.js", "MongoDB","Bootstrap","Styled-components","Material UI"],
-    "description": "Fully functional e-commerce website including pages from product listing to payment and admin area with CRUD functionality for users, products and orders. Authentication handled with JWT. Redux for state management.",
+    "description": "Fully functional e-commerce website including pages from product listing to payment . Authentication handled with JWT. Redux for state management.",
     "liveLink": "https://clone-of-max-fashion.netlify.app/",
     "githubLink": "https://github.com/rushig777/festive-crayon-1023",
     "image": "max-fashion-one.png",
