@@ -51,14 +51,9 @@ const ProjectDetail = (props) => {
           <div>
             <h2>Screenshots & description</h2>
             <Swiper
-              rewind={true}
-              // grabCursor={true}
+              rewind={false}
               modules={[Pagination, Navigation]}
               navigation={true}
-              // pagination={pagination}
-              // pagination={{
-              //   dynamicBullets: true,
-              // }}
               className="mySwiper"
             >
               {project.screenshots.map((screenshot, index) => (

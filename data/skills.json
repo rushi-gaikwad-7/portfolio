@@ -23,58 +23,58 @@
         "title":"Redux"  
       },
       {
-          "id":8,
+          "id":6,
           "logoImg":"https://www.svgrepo.com/show/373929/node.svg",
           "title":"Node.js"  
         },
         {
-          "id":9,
+          "id":7,
           "logoImg":"https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
           "title":"Express.js"  
         }, {
-          "id":10,
+          "id":8,
           "logoImg":"https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
           "title":"MongoDB"  
         },{
-          "id":12,
+          "id":9,
           "logoImg":"https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
           "title":"Bootstrap"  
         },{
-          "id":13,
+          "id":10,
           "logoImg":"https://cdn.worldvectorlogo.com/logos/sass-1.svg",
           "title":"Sass"  
         },
           {
-            "id":14,
+            "id":11,
             "logoImg":"https://cdn.worldvectorlogo.com/logos/styled-components-1.svg",
             "title":"Styled-Components"  
           }, {
-            "id":15,
+            "id":12,
             "logoImg":"https://cdn-icons-png.flaticon.com/512/6567/6567915.png",
             "title":"Git"  
           }, {
-            "id":16,
+            "id":13,
             "logoImg":"https://cdn-icons-png.flaticon.com/512/1051/1051326.png",
             "title":"GitHub"  
           },
           {
-            "id":25,
+            "id":14,
             "logoImg":"https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
             "title":"Tailwind CSS"  
           },
            {
-            "id":11,
+            "id":15,
             "logoImg":"https://www.vectorlogo.zone/logos/redis/redis-icon.svg",
             "title":"Redis"  
           },
           {
-            "id":6,
+            "id":16,
             "logoImg":"https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
             "title":"TypeScript"  
           },
           {
       
-            "id":7,
+            "id":17,
             "logoImg":"https://www.svgrepo.com/show/306466/next-dot-js.svg",
             "title":"Next.js"  
           }

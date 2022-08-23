@@ -29,11 +29,9 @@ const About = () => {
               month at the institute, I became certain that I will pursue web
               development as my career.
             </p>
-
             <p>
             Besides coding, I focus on physical and mental fitness by going to the gym, meditating, and playing chess and cricket.
             </p>
-
             <p>
             Looking forward to joining a progressive and challenging work environment that demands the best of my professional ability in terms of technical and analytical skills, and helps me in broadening and enhancing my current skill and knowledge.
             </p>
@@ -43,14 +41,21 @@ const About = () => {
             <div className={classes.imageContainer}>
               <Image
                 src={myPic}
-                width={400}
-                height={630}
+                width={350}
+                height={550}
                 loader={ImgLoader}
                 alt="profile-pic"
                 data-aos="fade-left"
               />
             </div>
           </div>
+        </div>
+      </div>
+      <div className={classes.contact}>
+        <div>
+        <div><i className="fa-solid fa-envelope"></i><p>gaikwadrushi777@gmail.com</p></div>
+        <div><i className="fa-solid fa-phone"></i><p>7774962961</p></div>
+        <div><i className="fa-solid fa-location-dot"></i><p>Pune, Maharashtra</p></div>
         </div>
       </div>
     </section>

@@ -4,8 +4,8 @@
     "slug": "max",
     "title": "Max-fashion clone",
     "tech": ["CSS","JavaScript","Next.js","Redux","Node.js", "Express.js", "MongoDB","Bootstrap","Styled-components","Material UI"],
-    "description": "Max Fashion is an Indian fashion brand under the banner of the Mumbai based Landmark Group. e-commerce website including pages from product listing to payment. Authentication handled with JWT. Redux for state management.",
-    "liveLink": "https://clone-of-max-fashion.netlify.app/",
+    "description": "Max Fashion is an Indian fashion brand under the banner of the Mumbai based Landmark Group. Website including pages from product listing to payment. Authentication handled with JWT. Redux for state management.",
+    "liveLink": "https://clone-of-maxfashion-rushig777.vercel.app",
     "githubLink": "https://github.com/rushig777/festive-crayon-1023",
     "image": "max-fashion-one.png",
     "isFeatured": true,
@@ -16,23 +16,23 @@
       },
       {
         "screenshot": "max-fashion-two.png",
-        "description": "project swapper."
+        "description": "login page."
       },
       {
         "screenshot": "max-fashion-three.png",
-        "description": "skill element."
+        "description": "product page ."
       },
       {
         "screenshot": "max-fashion-four.png",
-        "description": "all project page element."
+        "description": " project details page."
       }
     ]
   },
   {
     "_id": "2",
     "title": "Portfolio website",
-    "tech": ["React", "Next.js","Sass"],
-    "description": "Developed with Next.js using Static Site Generation. Dynamic pages for projects and Framer motion for the \"eye candy\".",
+    "tech": ["JavaScript","React","Next.js","Sass","framer-motion","swiper"],
+    "description": "Personal portfolio website Developed with Next.js using Static Site Generation. Dynamic pages for projects and Framer motion for the \"eye candy\".",
     "liveLink": "https://rushikesh-gaikwad-portfolio.netlify.app/",
     "githubLink": "https://github.com/rushig777/portfolio",
     "image": "portfolio.png",
@@ -43,11 +43,11 @@
         "description": "Homepage with navbar and hero element."
       },
       {
-        "screenshot": "portfolio.png",
+        "screenshot": "portfolio-two.png",
         "description": "project swapper."
       },
       {
-        "screenshot": "portfolio.png",
+        "screenshot": "portfolio-three.png",
         "description": "skill element."
       },
       {
@@ -68,7 +68,7 @@
     "liveLink": "https://cloneof-udemy.netlify.app/",
     "githubLink": "https://github.com/rushig777/Udemy-clone",
     "image": "udemy-one.png",
-    "isFeatured": true
+    "isFeatured": false
   },
   {
     "_id": "4",
@@ -98,6 +98,41 @@
       },
       {
         "screenshot": "myntra-four.png",
+        "description": "card page ."
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "title": "BathBodyWorks",
+    "tech": [
+      "CSS",
+      "JavaScript",
+      "React",
+      "Redux",
+      "JSON-server",
+     "Styled-components"
+    ],
+    "description": "BathBodyWorks is a popular American Brand. BathBodyWorks is a retail store chain which came in E-commerce business to sell their products. This Company sells products like lotions, soap, daily perfumes,candles,etc. BathBodyWorks-clone is a construct week project built by a team of 6 executed in 6 days.",
+    "liveLink": "https://clone-of-bathandbodyworks.netlify.app",
+    "githubLink": "https://github.com/rushig777/bathandbodyworks-clone",
+    "image": "bbd-one.png",
+    "isFeatured": true,
+    "screenshots": [
+      {
+        "screenshot": "bbd-one.png",
+        "description": "Homepage with navbar element."
+      },
+      {
+        "screenshot": "bbd-two.png",
+        "description": "login page ."
+      },
+      {
+        "screenshot": "bbd-three.png",
+        "description": "product  page ."
+      },
+      {
+        "screenshot": "bbd-four.png",
         "description": "card page ."
       }
     ]
