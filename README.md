@@ -9,9 +9,8 @@ JavaScript, React, Next.js, Sass, framer-motion, swiper
 
 ## Demo
 
-Insert gif or link to demo
-
 https://rushikesh-gaikwad-portfolio.netlify.app
+
 ## Getting Started
 
 
